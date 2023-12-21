@@ -40,6 +40,8 @@
   "license": "SEE LICENSE IN LICENSE.txt",
   "devDependencies": {
     "esbuild": "^0.15.16",
+    "typedoc": "^0.25.4",
+    "typedoc-plugin-markdown": "^3.17.1",
     "typescript": "^4.5.4"
   }
 }
