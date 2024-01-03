@@ -23,12 +23,12 @@ console.log(new_file.keys());
 ```js
 
 // shape and dtype will match input if omitted
-new_file.get("entry").create_dataset({name: "auto", data: [3.1, 4.1, 0.0, -1.0]});
-console.log("shape: ", new_file.get("entry/auto").shape);
-console.log("dtype: ", new_file.get("entry/auto").dtype);
-console.log("value: ", new_file.get("entry/auto").value);
+file.get("entry").create_dataset({name: "auto", data: [3.1, 4.1, 0.0, -1.0]});
+console.log("shape: ", file.get("entry/auto").shape);
+console.log("dtype: ", file.get("entry/auto").dtype);
+console.log("value: ", file.get("entry/auto").value);
 ```
-<codapi-snippet sandbox="javascript" editor="basic" init-delay="500">
+<codapi-snippet sandbox="javascript" editor="basic" init-delay="500" template="/code/blank_file.js">
 </codapi-snippet>
 
 ### Create Float32 dataset
