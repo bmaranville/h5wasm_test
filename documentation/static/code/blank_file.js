@@ -1,13 +1,14 @@
 const h5wasm = await import("https://cdn.jsdelivr.net/npm/h5wasm@latest/dist/esm/hdf5_hl.js");
 const { FS } = await h5wasm.ready;
+h5wasm.Module.activate_throwing_error_handler();
 const temp_filename = `temp_${Date.now()}.h5`;
 
 //if (window.new_file && window.new_file.close) window.new_file.close();
 if (FS.isFile(temp_filename)) FS.unlink(temp_filename);
 
-console.log("hello");
+// console.log("hello");
 const file = new h5wasm.File(temp_filename, "w");
-console.log("filename:", file.filename)
+// console.log("filename:", file.filename)
 
 ##CODE##
 
