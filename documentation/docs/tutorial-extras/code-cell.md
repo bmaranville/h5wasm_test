@@ -30,7 +30,7 @@ console.log("dataset as array: ", file.get("my_dataset").to_array());
 
 file.close();
 ```
-<codapi-snippet sandbox="javascript" editor="basic" init-delay="500">
+<codapi-snippet engine="browser" sandbox="javascript" editor="basic" init-delay="500">
 </codapi-snippet>
 
 ```js
@@ -38,5 +38,5 @@ const h5wasm = await import("https://cdn.jsdelivr.net/npm/h5wasm@latest/dist/esm
 await h5wasm.ready;
 console.log(h5wasm.FS.readdir("."));
 ```
-<codapi-snippet sandbox="javascript" editor="basic" init-delay="500">
+<codapi-snippet engine="browser" sandbox="javascript" editor="basic" init-delay="500">
 </codapi-snippet>

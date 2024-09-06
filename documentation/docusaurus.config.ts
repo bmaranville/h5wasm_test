@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'h5wasm',
   tagline: 'reading and writing HDF5 in javascript with webassembly',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/h5wasm.svg',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -110,13 +110,13 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
   stylesheets: [
     {
-        href: "https://unpkg.com/@antonz/codapi@0.11.0/dist/snippet.css",
+        href: "https://unpkg.com/@antonz/codapi@0.19.8/dist/snippet.css",
     },
   ],
 
   scripts: [
       {
-          src: "https://unpkg.com/@antonz/codapi@0.11.0/dist/snippet.js",
+          src: "https://unpkg.com/@antonz/codapi@0.19.8/dist/snippet.js",
           defer: true,
       },
   ],

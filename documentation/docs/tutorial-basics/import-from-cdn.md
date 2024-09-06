@@ -37,5 +37,5 @@ console.log("keys: ", f.keys());
 console.log("some data: ", f.get("entry/DAS_logs/counter/liveMonitor").value)
 
 ```
-<codapi-snippet sandbox="javascript" editor="basic" init-delay="500">
+<codapi-snippet engine="browser" sandbox="javascript" editor="basic" init-delay="500">
 </codapi-snippet>
